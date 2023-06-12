@@ -36,6 +36,7 @@ bumper_8 = Bumper(Ports.PORT8)
 
 def calibrate_drivetrain():
     # Calibrate the Drivetrain Inertial
+    # Here's a silly change!
     sleep(200, MSEC)
     brain.screen.print("Calibrating")
     brain.screen.next_row()
